@@ -1,0 +1,26 @@
+{
+  "name": "paths",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mughammadcase/paths.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mughammadcase/paths/issues"
+  },
+  "homepage": "https://github.com/mughammadcase/paths#readme",
+  "devDependencies": {
+    "eslint": "^10.10.0",
+    "prettier": "^3.9.6",
+    "vitest": "^5.0.0"
+  }
+}

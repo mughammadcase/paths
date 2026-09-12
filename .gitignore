@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Test coverage - will eventually contain generated testing reports
+coverage/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
