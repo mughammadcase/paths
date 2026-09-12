@@ -4,11 +4,11 @@ node_modules/
 # Test coverage - will eventually contain generated testing reports
 coverage/
 
-# Environment variables
+# Environment variables - ignore files containing secrets
 .env
 .env.*
 !.env.example
 
-# OS files
+# OS files - prevent macOS and Windows metadata from entering the repository
 .DS_Store
 Thumbs.db
