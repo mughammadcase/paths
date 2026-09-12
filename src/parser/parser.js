@@ -1,8 +1,8 @@
 import parse from "acorn";
 
-// Parse given code string into an AST using acorn parser with latest ECMAScript version & module source type
-export function parseCode(code) {
-  return parse(code, {
+// Parse source code into an AST using the latest ECMAScript version.
+export function parseSource(source) {
+  return parse(source, {
     ecmaVersion: "latest",
     sourceType: "module",
   });
